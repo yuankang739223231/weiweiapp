@@ -1,0 +1,5 @@
+package com.weiwei.svr.dao;
+
+public interface AnnouncementDAO {
+
+}

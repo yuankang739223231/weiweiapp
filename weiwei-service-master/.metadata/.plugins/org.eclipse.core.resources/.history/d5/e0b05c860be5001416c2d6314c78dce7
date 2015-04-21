@@ -1,0 +1,5 @@
+package com.weiwei.service.controller;
+
+public interface IServiceController {
+
+}

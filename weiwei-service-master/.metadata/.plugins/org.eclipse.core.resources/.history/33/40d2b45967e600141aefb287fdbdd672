@@ -1,0 +1,5 @@
+package com.weiwei.svr.dao.impl;
+
+public class AnnouncementDAPImpl implements IAnnouncementDAO{
+
+}

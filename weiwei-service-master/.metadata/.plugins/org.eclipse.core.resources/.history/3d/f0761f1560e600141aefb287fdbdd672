@@ -1,0 +1,5 @@
+package com.weiwei.centreservice.common.base;
+
+public class Constants {
+
+}

@@ -1,0 +1,13 @@
+package com.weiwei.weiwei_infrastructure_svc;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

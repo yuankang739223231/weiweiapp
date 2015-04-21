@@ -1,0 +1,6 @@
+package com.weiwei.service.controller;
+
+public interface IServiceController {
+	//public GeneralServiceResponse generalService(final GeneralServiceRequest generalServiceRequest);
+	public GeneralServiceResponse interllecturalService(final GeneralServiceRequest generalServiceRequest);
+}

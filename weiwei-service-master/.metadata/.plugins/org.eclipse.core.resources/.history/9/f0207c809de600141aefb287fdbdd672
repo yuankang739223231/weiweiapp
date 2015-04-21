@@ -1,0 +1,10 @@
+package com.weiwei.svr.infra;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class ConnectionManager {
+	
+	private static ApplicationContext context = new ClassPathXmlApplicationContext("Infra-Module.xml");
+
+}

@@ -1,0 +1,19 @@
+package com.weiwei.centreservice.common.request;
+
+public class AnnouncementRequest {
+	public String startNumber;
+	public String endNumber;
+	
+	public void setStartNumber(String s){
+		startNumber = s;
+	}
+	public String getStartNumber(){
+		return startNumber;
+	}
+	public void setEndNumber(String s){
+		endNumber = s;
+	}
+	public String getEndNumber(){
+		return endNumber;
+	}
+}

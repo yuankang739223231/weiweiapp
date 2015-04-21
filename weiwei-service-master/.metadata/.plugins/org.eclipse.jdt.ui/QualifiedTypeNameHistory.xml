@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.weiwei.service.controller.IServiceController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="com.weiwei.service.common.request.IntellectualServiceRequest"/>
+<fullyQualifiedTypeName name="com.weiwei.service.common.response.IntellectualServiceResponse"/>
+<fullyQualifiedTypeName name="com.weiwei.service.common.request.CentreServiceRequest"/>
+<fullyQualifiedTypeName name="com.weiwei.service.common.response.VIPServiceResponse"/>
+<fullyQualifiedTypeName name="com.weiwei.service.common.request.VIPServiceRequest"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+<fullyQualifiedTypeName name="com.weiwei.service.common.response.CentreServiceResponse"/>
+<fullyQualifiedTypeName name="com.weiwei.centreservice.common.response.AnnouncementResponse"/>
+<fullyQualifiedTypeName name="com.weiwei.service.common.response.GeneralServiceResponse"/>
+<fullyQualifiedTypeName name="com.weiwei.service.processors.base.BaseProcessor"/>
+<fullyQualifiedTypeName name="com.weiwei.centreservice.processor.AnnouncementProcessor"/>
+<fullyQualifiedTypeName name="com.weiwei.centreservice.common.base.Constants"/>
+<fullyQualifiedTypeName name="com.weiwei.contreservice.beans.Announcement"/>
+<fullyQualifiedTypeName name="com.weiwei.contreservice.model.Announcement"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="com.weiwei.svr.utils.SVRFieldValidator"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.weiwei.svr.infra.DBHelper"/>
+<fullyQualifiedTypeName name="com.weiwei.svr.dao.IAnnouncementDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.weiwei.svr.infra.ConnectionManager"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.weiwei.centreservice.common.base.UtilityMethods"/>
+<fullyQualifiedTypeName name="com.weiwei.contreservice.beans.AnnouncementBean"/>
+<fullyQualifiedTypeName name="com.weiwei.centreservice.common.request.AnnouncementRequest"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

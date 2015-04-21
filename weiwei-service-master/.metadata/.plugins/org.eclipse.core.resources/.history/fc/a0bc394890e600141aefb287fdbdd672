@@ -1,0 +1,4 @@
+DB_DRIVER_CLASS=com.mysql.jdbc.Driver
+DB_URL=jdbc:mysql://120.55.96.224:3306/dedecmsv57utf8sp1
+DB_USERNAME=root
+DB_PASSWORD=k33pOUT1

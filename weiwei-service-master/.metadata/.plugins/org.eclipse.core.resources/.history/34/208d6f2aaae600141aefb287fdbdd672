@@ -1,0 +1,33 @@
+package com.weiwei.contreservice.model;
+
+public class Announcement {
+	private String title;
+	private String body;
+	private String publishTime;
+	private String source;
+	
+	public void setTitle(String str){
+		title = str;
+	}
+	public String getTitle(){
+		return title;
+	}
+	public void setPublishTime(String str){
+		publishTime = str;
+	}
+	public String getPublishTime(){
+		return publishTime;
+	}
+	public void setBody(String str){
+		body = str;
+	}
+	public String getBody(){
+		return body;
+	}
+	public void setOwner(String str){
+		source = str;
+	}
+	public String getOwner(){
+		return source;
+	}
+}

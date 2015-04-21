@@ -1,0 +1,27 @@
+package com.weiwei.svr.infra;
+
+import java.sql.*;
+import java.util.List;
+import java.util.Vector;
+
+public class DBHelper {
+	private Connection conn = null;
+	public DBHelper(Connection c){
+		conn = c;
+	}
+	
+	public List getResult(String sql) throws SQLException{
+		return getResult(sql, null);
+	}
+	
+	public List getResult(String sql, List params) throws SQLException{
+		Vector v = null;
+		ResultSet rs = null;
+		PreparedStatement pstmt = null;
+		Statement stmt = null;
+		
+		try{
+			
+		}
+	}
+}

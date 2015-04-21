@@ -1,0 +1,36 @@
+package com.weiwei.centreservice.processor;
+
+import java.util.Map;
+
+import com.weiwei.centreservice.common.base.Constants;
+import com.weiwei.contreservice.beans.AnnouncementBean;
+import com.weiwei.service.processors.base.BaseProcessor;
+import com.weiwei.svr.infra.ConnectionManager;
+
+import org.springframework.context.ApplicationContext;
+
+public class AnnouncementProcessor extends BaseProcessor{
+	
+	private AnnouncementBean announcement;
+	
+	@Override
+	protected void preProcess(Map scopes){
+		announcement = new AnnouncementBean();
+	}
+
+	@Override
+	protected String executeProcess(Map scopes) {
+		// TODO Auto-generated method stub
+		String event = Constants.EVENT_SUCCESS;
+		ConnectionManager connMrg = new ConnectionManager();
+		ApplicationContext context = connMrg.getContext();
+		return event;
+	}
+	
+	@Override
+	protected String postProcess(Map scopes, String event){
+		scopes.put(Constants.SERVICE_RESPONSE, announcement);
+		return event;
+	}
+
+}

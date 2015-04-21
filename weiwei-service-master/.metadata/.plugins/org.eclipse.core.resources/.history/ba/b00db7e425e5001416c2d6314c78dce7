@@ -1,0 +1,19 @@
+package com.weiwei.contreservice.beans;
+
+public class Announcement {
+	private String title;
+	private String publishTime;
+	
+	public void setTitle(String str){
+		title = str;
+	}
+	public String getTitle(){
+		return title;
+	}
+	public void setPublishTime(String str){
+		publishTime = str;
+	}
+	public String getPublishTime(){
+		return publishTime;
+	}
+}
