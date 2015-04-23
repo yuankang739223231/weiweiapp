@@ -44,11 +44,23 @@
 		<item value="false" key="REG_EX_SEARCH"/>
 		<item value="false" key="SEARCH_DERIVED"/>
 		<item value="false" key="WHOLE_WORD"/>
-		<item value="2" key="HISTORY_SIZE"/>
+		<item value="5" key="HISTORY_SIZE"/>
 		<section name="EXTENSIONS">
 			<item value="*" key="0"/>
 		</section>
-		<section name="HISTORY0">
+		<section name="HISTORY2">
+			<item value="false" key="isRegExSearch"/>
+			<item value="findBySequenceId" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="true" key="ignoreCase"/>
+			<item value="false" key="isWholeWord"/>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY3">
 			<item value="false" key="isRegExSearch"/>
 			<item value="keyiwx" key="textPattern"/>
 			<item value="0" key="scope"/>
@@ -60,7 +72,31 @@
 			<list key="workingSets">
 			</list>
 		</section>
+		<section name="HISTORY0">
+			<item value="false" key="isRegExSearch"/>
+			<item value="subTitle" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="true" key="ignoreCase"/>
+			<item value="false" key="isWholeWord"/>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
 		<section name="HISTORY1">
+			<item value="false" key="isRegExSearch"/>
+			<item value="publishTime" key="textPattern"/>
+			<item value="0" key="scope"/>
+			<item value="true" key="ignoreCase"/>
+			<item value="false" key="isWholeWord"/>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY4">
 			<item value="false" key="isRegExSearch"/>
 			<item value="http" key="textPattern"/>
 			<item value="0" key="scope"/>

@@ -1,0 +1,28 @@
+package com.weiwei.contreservice.beans;
+
+import java.util.Map;
+
+import com.weiwei.centreservice.common.base.UtilityMethods;
+import com.weiwei.contreservice.model.Announcement;
+
+public class AnnouncementBean extends Announcement{
+	
+	@Override
+	public void fillAnnouncement(Map map){
+		super.fillAnnouncement(map);
+		String url = UtilityMethods.getMapValueString(map, "url");
+		fillSubTitle(url);
+		
+		String result = UtilityMethods.getMapValueString(map, "result");
+		fillBody(result);
+	}
+	
+	private void fillSubTitle(String url){
+		url = url.substring(0, url.lastIndexOf("/"));
+		subTitle = url.substring(url.lastIndexOf("/")+1);
+	}
+	
+	private void fillBody(String result){
+		//parse result
+	}
+}

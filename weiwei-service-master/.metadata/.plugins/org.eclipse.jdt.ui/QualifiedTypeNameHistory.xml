@@ -13,7 +13,6 @@
 <fullyQualifiedTypeName name="com.weiwei.service.common.response.GeneralServiceResponse"/>
 <fullyQualifiedTypeName name="com.weiwei.service.processors.base.BaseProcessor"/>
 <fullyQualifiedTypeName name="com.weiwei.centreservice.processor.AnnouncementProcessor"/>
-<fullyQualifiedTypeName name="com.weiwei.centreservice.common.base.Constants"/>
 <fullyQualifiedTypeName name="com.weiwei.contreservice.beans.Announcement"/>
 <fullyQualifiedTypeName name="com.weiwei.contreservice.model.Announcement"/>
 <fullyQualifiedTypeName name="javax.sql.DataSource"/>
@@ -31,7 +30,8 @@
 <fullyQualifiedTypeName name="com.weiwei.svr.infra.ConnectionManager"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="com.weiwei.centreservice.common.base.UtilityMethods"/>
-<fullyQualifiedTypeName name="com.weiwei.contreservice.beans.AnnouncementBean"/>
-<fullyQualifiedTypeName name="com.weiwei.centreservice.common.request.AnnouncementRequest"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.weiwei.centreservice.common.base.Constants"/>
+<fullyQualifiedTypeName name="com.weiwei.centreservice.common.request.AnnouncementRequest"/>
+<fullyQualifiedTypeName name="com.weiwei.contreservice.beans.AnnouncementBean"/>
 </qualifiedTypeNameHistroy>

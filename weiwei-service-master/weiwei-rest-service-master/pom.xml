@@ -18,6 +18,24 @@
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter-web</artifactId>
       </dependency>
+      
+      <dependency>
+          <groupId>com.weiwei</groupId>
+          <artifactId>weiwei-centreservice-svc</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      
+      <dependency>
+          <groupId>com.weiwei</groupId>
+          <artifactId>weiwei-processor</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      
+      <dependency>
+          <groupId>com.weiwei</groupId>
+          <artifactId>weiwei-intellectual-svc</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+      </dependency>
   </dependencies>
 
   <properties>
@@ -34,10 +52,10 @@
           <plugin>
 		  	<groupId>org.codehaus.mojo</groupId>
 		  	<artifactId>tomcat-maven-plugin</artifactId>
+		  	<version>1.1</version>
 		  </plugin>
       </plugins>
   </build>
-
   <repositories>
       <repository>
           <id>spring-releases</id>

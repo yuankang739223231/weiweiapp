@@ -27,13 +27,20 @@ public class AnnouncementProcessor extends BaseProcessor{
 	@Override
 	protected String executeProcess(Map scopes) {
 		// TODO Auto-generated method stub
-		String event = Constants.EVENT_SUCCESS;
 		ConnectionManager connMrg = new ConnectionManager();
 		ApplicationContext context = connMrg.getContext();
 		IAnnouncementDAO announcementDAO = (IAnnouncementDAO) context.getBean("announcementDAO");
         
-        announcementList_db = announcementDAO.findBySequenceId(Integer.parseInt(request.getStartNumber()), Integer.parseInt(request.getEndNumber()));
-		return event;
+		if(request.getUrl() != null && !"".equalsIgnoreCase(request.getUrl().trim())){
+			announcementList_db = announcementDAO.findByUrl(request.getUrl());
+		}
+		else if(request.getStartNumber()!=null && request.getEndNumber()!=null){
+			if(Integer.parseInt(request.getEndNumber()) >= Integer.parseInt(request.getStartNumber())){
+				announcementList_db = announcementDAO.findBySequenceId(Integer.parseInt(request.getStartNumber()), Integer.parseInt(request.getEndNumber()));
+				return Constants.EVENT_SUCCESS;
+			}
+		}
+		return Constants.EVENT_FAIL;
 	}
 	
 	@Override

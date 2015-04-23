@@ -5,6 +5,13 @@
 		<item value="640" key="DIALOG_HEIGHT"/>
 		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 	</section>
+	<section name="org.eclipse.debug.ui.sourcelookup.SourceLookupDialog">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="92" key="DIALOG_Y_ORIGIN"/>
+		<item value="378" key="DIALOG_X_ORIGIN"/>
+		<item value="412" key="DIALOG_HEIGHT"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+	</section>
 	<section name="org.eclipse.debug.ui.LAUNCH_CONFIGURATIONS_DIALOG_SECTION">
 		<item value="800" key="DIALOG_WIDTH"/>
 		<item value=", " key="org.eclipse.debug.ui.EXPANDED_NODES"/>
@@ -16,6 +23,11 @@
 	<section name="org.eclipse.debug.ui.SELECT_LAUNCH_SHORTCUT_DIALOG">
 		<item value="253" key="DIALOG_WIDTH"/>
 		<item value="416" key="DIALOG_HEIGHT"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.jdt.debug.ui.PROJECT_SELECTION_DIALOG_SECTION">
+		<item value="289" key="DIALOG_WIDTH"/>
+		<item value="377" key="DIALOG_HEIGHT"/>
 		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>

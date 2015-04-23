@@ -3,6 +3,7 @@ package com.weiwei.centreservice.common.request;
 public class AnnouncementRequest {
 	public String startIndex;
 	public String endIndex;
+	public String url;
 	
 	public void setStartNumber(String s){
 		startIndex = s;
@@ -15,5 +16,11 @@ public class AnnouncementRequest {
 	}
 	public String getEndNumber(){
 		return endIndex;
+	}
+	public void setUrl(String t){
+		url = t;
+	}
+	public String getUrl(){
+		return url;
 	}
 }

@@ -30,5 +30,6 @@
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/weiwei-processor"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/weiwei-centreservice-svc"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/weiwei-intellectual-svc"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
