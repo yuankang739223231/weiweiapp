@@ -5,8 +5,18 @@ import java.util.Map;
 import com.weiwei.centreservice.common.base.Constants;
 import com.weiwei.centreservice.common.base.UtilityMethods;
 import com.weiwei.contreservice.model.Announcement;
+import com.weiwei.svr.model.Announce;
 
 public class AnnouncementBean extends Announcement{
+	
+	public AnnouncementBean(){
+		super();
+	}
+	public AnnouncementBean(Announce a){
+		super();
+		title = a.getTitle();
+		url = a.getUrl();
+	}
 	
 	@Override
 	public void fillAnnouncement(Map map){
@@ -18,6 +28,10 @@ public class AnnouncementBean extends Announcement{
 		fillBody(result);
 	}
 	
+	public void fillPublishTime(){
+		fillPublishTime(url);
+	}
+	
 	private void fillPublishTime(String url){
 		if("".equalsIgnoreCase(url)){
 			return;
@@ -26,7 +40,7 @@ public class AnnouncementBean extends Announcement{
 		publishTime = url.substring(url.lastIndexOf("/")+1);
 	}
 	
-	private void fillBody(String result){
+	public void fillBody(String result){
 		if("".equalsIgnoreCase(result)){
 			return;
 		}

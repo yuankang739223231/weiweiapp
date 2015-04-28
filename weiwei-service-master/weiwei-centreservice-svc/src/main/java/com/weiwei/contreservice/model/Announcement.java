@@ -5,7 +5,7 @@ import java.util.Map;
 import com.weiwei.centreservice.common.base.Constants;
 import com.weiwei.centreservice.common.base.UtilityMethods;
 
-public class Announcement {
+public class Announcement{
 	protected String title;
 	protected String body;
 	protected String publishTime;

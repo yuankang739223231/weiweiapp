@@ -1,5 +1,0 @@
-package com.weiwei.centreservice.common.response;
-
-public class AnnouncementResponse {
-
-}

@@ -24,8 +24,16 @@
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="489" key="height"/>
+		<item value="480" key="width"/>
+		<item value="63" key="y"/>
+		<item value="400" key="x"/>
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/Yingkai/GitHub/yuankang739223231/weiwei-service-master/weiwei-rest-service-master/pom.xml"/>
+			<item value="/Users/Yingkai/GitHub/yuankang739223231/weiwei-service-master/weiwei-centreservice-svc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -38,23 +46,12 @@
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="groupId">
 			<item value="com.weiwei"/>
-			<item value="com.weiwei.rest.service"/>
 		</list>
 		<list key="package">
-			<item value="com.weiwei.weiwei_infrastructure_svc"/>
-			<item value="com.weiwei.weiwei_processor"/>
-			<item value="com.weiwei.weiwei_centreservice_svc"/>
-			<item value="com.weiwei.weiwei_intellectual_svc"/>
-			<item value="com.weiwei.weiwei_rest_service_master"/>
-			<item value="com.weiwei.rest.service.WeiweiController"/>
+			<item value="com.weiwei.weiwei_build_aggregate"/>
 		</list>
 		<list key="artifactId">
-			<item value="weiwei-infrastructure-svc"/>
-			<item value="weiwei-processor"/>
-			<item value="weiwei-centreservice-svc"/>
-			<item value="weiwei-intellectual-svc"/>
-			<item value="weiwei-rest-service-master"/>
-			<item value="WeiweiController"/>
+			<item value="weiwei-build-aggregate"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

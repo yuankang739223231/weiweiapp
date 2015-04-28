@@ -1,6 +1,0 @@
-package com.weiwei.centreservice.common.response;
-
-import com.weiwei.service.common.response.CentreServiceResponse;
-
-public class AnnouncementResponse extends CentreServiceResponse{
-}

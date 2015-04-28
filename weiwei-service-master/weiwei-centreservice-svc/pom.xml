@@ -13,28 +13,25 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <parent>
+      <groupId>com.weiwei</groupId>
+      <artifactId>weiwei-build-aggregate</artifactId>
+  	  <version>0.0.1-SNAPSHOT</version>
+  	  <relativePath>../weiwei-build-aggregate/pom.xml</relativePath>
+  </parent>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    
-    <!-- Spring framework -->
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-context</artifactId>
-		<version>4.1.6.RELEASE</version>
-	</dependency>
-	
-	<dependency>
-		<groupId>com.weiwei</groupId>
-	    <artifactId>weiwei-infrastructure-svc</artifactId>
-	    <version>0.0.1-SNAPSHOT</version>
-    </dependency>
-	
+      <dependency>
+          <groupId>com.weiwei</groupId>
+          <artifactId>weiwei-processor</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+          <groupId>com.weiwei</groupId>
+          <artifactId>weiwei-infrastructure-svc</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+      </dependency>
   </dependencies>
 
 </project>
