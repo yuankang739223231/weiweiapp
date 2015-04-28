@@ -1,5 +1,0 @@
-package com.weiwei.service.processors.base;
-
-public abstract class BaseProcessor {
-
-}

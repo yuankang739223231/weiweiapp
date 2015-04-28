@@ -1,7 +1,0 @@
-INDEX VERSION 1.3+/Users/Yingkai/GitHub/yuankang739223231/weiwei-service-master/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-2479594730.index
-2737241624.index
-1862440250.index
-1172026626.index
-3842745000.index
-832162752.index

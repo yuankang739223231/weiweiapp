@@ -1,8 +1,0 @@
-package com.weiwei.centreservice.common.response;
-
-import com.weiwei.contreservice.beans.Announcement;
-import com.weiwei.service.common.response.CentreServiceResponse;
-
-public class AnnouncementResponse extends CentreServiceResponse{
-	Announcement announcement = new Announcement();
-}

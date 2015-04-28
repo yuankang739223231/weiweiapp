@@ -1,6 +1,0 @@
-package com.weiwei.centreservice.common.request;
-
-public class AnnouncementRequest {
-	public String startNumber;
-	public String endNumber;
-}

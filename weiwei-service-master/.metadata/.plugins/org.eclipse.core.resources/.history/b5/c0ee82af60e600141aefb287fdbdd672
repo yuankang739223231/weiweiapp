@@ -1,5 +1,0 @@
-package com.weiwei.centreservice.common.base;
-
-public class Constants {
-	final public static String EVENT_SUCCESS = "success"; 
-}
