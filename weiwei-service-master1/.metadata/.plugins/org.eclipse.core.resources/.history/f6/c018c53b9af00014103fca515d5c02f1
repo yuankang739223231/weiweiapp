@@ -1,0 +1,8 @@
+package com.weiwei.svr.dao;
+
+import java.util.List;
+
+public interface ICourseDAO {
+	public List<?> findByCategoryId(int categoryID, int startId, int endId);
+	public List<?> findByCourseId(String CourseId);
+}

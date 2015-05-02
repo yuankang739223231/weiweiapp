@@ -1,0 +1,29 @@
+package com.weiwei.svr.dao.impl;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.support.JdbcDaoSupport;
+
+import com.weiwei.svr.dao.ICourseDAO;
+
+public class CourseDAOImpl extends JdbcDaoSupport implements ICourseDAO{
+
+	@Autowired
+	public CourseDAOImpl(DataSource dataSource){
+		setDataSource(dataSource);
+	}
+	
+	public List<?> findByCategoryId(String categoryID, int startId, int endId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<?> findByCourseId(String CourseId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

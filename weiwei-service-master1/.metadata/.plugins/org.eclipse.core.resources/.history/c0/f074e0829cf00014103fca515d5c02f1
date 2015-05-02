@@ -1,0 +1,5 @@
+package com.weiwei.svr.manage.impl;
+
+public class CourseManagerImpl {
+
+}

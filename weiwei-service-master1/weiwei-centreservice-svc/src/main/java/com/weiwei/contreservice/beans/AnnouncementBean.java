@@ -5,7 +5,7 @@ import java.util.Map;
 import com.weiwei.centreservice.common.base.Constants;
 import com.weiwei.centreservice.common.base.UtilityMethods;
 import com.weiwei.contreservice.model.Announcement;
-import com.weiwei.svr.model.Announce;
+import com.weiwei.svr.dbmodel.Announce;
 
 public class AnnouncementBean extends Announcement{
 	

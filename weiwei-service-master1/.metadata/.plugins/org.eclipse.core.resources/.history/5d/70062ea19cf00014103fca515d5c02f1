@@ -1,0 +1,19 @@
+package com.weiwei.svr.manage.impl;
+
+import java.util.List;
+
+import com.weiwei.svr.manage.ICourseManager;
+
+public class CourseManagerImpl implements ICourseManager{
+
+	public List<?> findByCategoryId(String categoryID, int startId, int endId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<?> findByCourseId(String CourseId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

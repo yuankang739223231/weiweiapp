@@ -1,0 +1,19 @@
+package com.weiwei.svr.dao.impl;
+
+import java.util.List;
+
+import com.weiwei.svr.dao.ICourseDAO;
+
+public class CourseDAOImpl implements ICourseDAO{
+
+	public List<?> findByCategoryId(String categoryID, int startId, int endId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<?> findByCourseId(String CourseId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

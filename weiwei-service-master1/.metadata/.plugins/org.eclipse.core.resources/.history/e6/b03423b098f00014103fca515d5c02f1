@@ -1,0 +1,5 @@
+package com.weiwei.contreservice.model;
+
+public class Course {
+
+}

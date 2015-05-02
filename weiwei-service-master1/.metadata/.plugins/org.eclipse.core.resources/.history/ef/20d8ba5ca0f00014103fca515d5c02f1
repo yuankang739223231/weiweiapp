@@ -1,0 +1,7 @@
+package com.weiwei.contreservice.beans;
+
+import com.weiwei.contreservice.model.Course;
+
+public class CourseBean extends Course{
+
+}

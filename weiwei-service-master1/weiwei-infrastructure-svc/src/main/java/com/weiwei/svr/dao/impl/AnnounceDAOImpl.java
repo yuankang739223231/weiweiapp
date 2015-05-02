@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.stereotype.Service;
 
-import com.weiwei.svr.model.Announce;
+import com.weiwei.svr.dbmodel.Announce;
 import com.weiwei.svr.dao.IAnnouncementDAO;
 
 @Service

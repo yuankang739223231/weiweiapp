@@ -51,6 +51,18 @@ public class APPController implements IServiceController{
 		}	
 		return serviceResponse;
 	}
+	
+	@RequestMapping(value="/centreservice/course")
+	public GeneralServiceResponse<CourseBean> courseService(@RequestBody CourseRequest serviceRequest){
+		scopes.put("cs_train_course_service", serviceRequest);
+		processor = new CourseProcessor();
+		processor.doProcess(scopes);
+		GeneralServiceResponse<CourseBean> serviceResponse = new GeneralServiceResponse<>();
+		if(scopes.containsKey("service_response")){
+			serviceResponse.setResponseObjectList((ArrayList)scopes.get("service_response"));
+		}
+		return serviceResponse;
+	}
 
 	@RequestMapping(value="/vipcentre",method = RequestMethod.POST)
 	public GeneralServiceResponse VIPService(VIPServiceRequest serviceRequest) {

@@ -1,0 +1,5 @@
+package com.weiwei.contreservice.beans;
+
+public class CourseBean {
+
+}
